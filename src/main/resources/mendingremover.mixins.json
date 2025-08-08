@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.samxel.mendingremover.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mendingremover.mixins.refmap.json",
+  "priority": 1000,
+  "mixins": [
+    "EnchantmentsMixin",
+    "ExperienceOrbMixin",
+    "ItemStackMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
